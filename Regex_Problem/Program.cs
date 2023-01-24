@@ -9,7 +9,6 @@ namespace Regex_Problem
             UserRegistration.ValidFirstName();
             UserRegistration.ValidLastName();
             UserRegistration.ValidEmail();
-            UserRegistration.ValidEmail();
             UserRegistration.MobileNumber();
             UserRegistration.Password();
         }
