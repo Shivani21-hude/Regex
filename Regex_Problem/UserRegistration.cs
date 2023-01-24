@@ -72,5 +72,21 @@ namespace Regex_Problem
                 Console.WriteLine("Your entered Mobile number is invalid ");
             }
         }
+        //Uc5
+
+        public static void Password()
+        {
+            Regex Password = new Regex("^[0-9]{8,}$");
+            Console.Write("Enter Password :");
+            string password = Console.ReadLine();
+            if (Password.IsMatch(password))
+            {
+                Console.WriteLine("-> Password : " + password);
+            }
+            else
+            {
+                Console.WriteLine("Must take minimum 8 characters ");
+            }
+        }
     }
 }

@@ -11,6 +11,7 @@ namespace Regex_Problem
             UserRegistration.ValidEmail();
             UserRegistration.ValidEmail();
             UserRegistration.MobileNumber();
+            UserRegistration.Password();
         }
     }
 }
