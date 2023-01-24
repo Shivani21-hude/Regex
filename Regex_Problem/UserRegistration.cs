@@ -72,11 +72,11 @@ namespace Regex_Problem
                 Console.WriteLine("Your entered Mobile number is invalid ");
             }
         }
-        //Uc5
+        
 
         public static void Password()
         {
-            Regex Password = new Regex("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{8,}$");
+            Regex Password = new Regex("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[@#$%^&+!=])(?=.{8,}).*$");
             Console.Write("Enter Password :");
             string password = Console.ReadLine();
             if (Password.IsMatch(password))
