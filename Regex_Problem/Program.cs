@@ -7,6 +7,7 @@ namespace Regex_Problem
         {
             Console.WriteLine("  ****  User Registration Process  ****\n");
             UserRegistration.ValidFirstName();
+            UserRegistration.ValidLastName();   
         }
     }
 }
