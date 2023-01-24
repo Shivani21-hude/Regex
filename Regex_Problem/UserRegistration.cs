@@ -76,7 +76,7 @@ namespace Regex_Problem
 
         public static void Password()
         {
-            Regex Password = new Regex("^[0-9]{8,}$");
+            Regex Password = new Regex("^[A-Z]{1,}[a-z]{7,}$");
             Console.Write("Enter Password :");
             string password = Console.ReadLine();
             if (Password.IsMatch(password))
@@ -85,7 +85,7 @@ namespace Regex_Problem
             }
             else
             {
-                Console.WriteLine("Must take minimum 8 characters ");
+                Console.WriteLine("Should have first upeer case character and have minimum 8 characters ");
             }
         }
     }
