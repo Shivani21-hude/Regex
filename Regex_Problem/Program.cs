@@ -10,6 +10,7 @@ namespace Regex_Problem
             UserRegistration.ValidLastName();   
             UserRegistration.ValidEmail();
             UserRegistration.ValidEmail();
+            UserRegistration.MobileNumber();
         }
     }
 }

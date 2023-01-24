@@ -56,5 +56,21 @@ namespace Regex_Problem
                 Console.WriteLine("Your entered Email is invalid ");
             }
         }
+        //Uc4
+
+        public static void MobileNumber()
+        {
+            Regex Mo_no = new Regex("^[0-9]{10}$");
+            Console.Write("Enter your Mobile number :");
+            string mobilenum = Console.ReadLine();
+            if (Mo_no.IsMatch(mobilenum))
+            {
+                Console.WriteLine("-> MobileNumber  : " + mobilenum);
+            }
+            else
+            {
+                Console.WriteLine("Your entered Mobile number is invalid ");
+            }
+        }
     }
 }
